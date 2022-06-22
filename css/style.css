@@ -1,0 +1,15 @@
+[class*="col-"]{
+    background-color: #016DFA;
+    color: white;
+    border: 3px solid white;
+    height: 80px;
+    padding: 15px;
+    text-align: center;
+}
+
+.nested>[class*="col-"]{
+    color: black;
+    background-color: lightgreen;
+    border: 2px solid #016DFA;
+    height: 50px;
+}
