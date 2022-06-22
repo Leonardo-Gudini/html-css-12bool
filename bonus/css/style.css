@@ -1,0 +1,13 @@
+body{
+    background-color: #222;
+}
+
+.container-fluid{
+    margin: 20px 0;
+}
+
+[class*="col-"]{
+    background-color: yellow;
+    border: 2px solid darkgoldenrod;
+    height: 80px;
+}
