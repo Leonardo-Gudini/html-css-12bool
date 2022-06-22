@@ -1,3 +1,7 @@
+.container-fluid{
+    margin: 20px 0;
+}
+
 [class*="col-"]{
     background-color: #016DFA;
     color: white;
